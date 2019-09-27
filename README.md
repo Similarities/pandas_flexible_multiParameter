@@ -22,7 +22,7 @@ we want to keep some the filters as an object, in order to apply different furth
 changing it (count,  ratio for x in range bla )
 
 
-Now the ULM would look pretty bad guess, the dataframe is splitted into subframes, which then applies range sortings for 
+Now the ULM would look pretty bad I guess, the dataframe is splitted into subframes, which then applies range sortings for 
 external named parameter and ranges, which in real partly splits the splitted subframe again in many sub_sub_frames. 
 At the moment in version 1.0, the last step of sub_splitting is only executed locally, since it then is folded together
 with the last step of an calculation, like 'count', 'calc_ratio'. 
