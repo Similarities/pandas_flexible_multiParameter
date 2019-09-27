@@ -6,20 +6,25 @@ This is good excercise for the question code design and patterns:
 We start with a mixed dataframe consisting of very different parameters. 
 We want to discriminate the data in different ways:
 
-sort the dataframe for unnamed columns
-skip some of the columns 
-keep a lot of the other columns 
+° sort the dataframe for unnamed columns
 
-generally filter for one parameter (like 'in' or 'out'), called the 'black and white' selection
+° skip some of the columns 
 
-generally filter for one parameter as a bandpass (>/< threshold), 'bandpass' selection
+° keep a lot of the other columns 
 
-filter for ranges (from ... to) in one of the parameters, while watching the results of a second parameter
+° generally filter for one parameter (like 'in' or 'out'), called the 'black and white' selection
+
+° generally filter for one parameter as a bandpass (>/< threshold), 'bandpass' selection
+
+° filter for ranges (from ... to) in one of the parameters, while watching the results of a second parameter
 (similar for x in range bla to bla, select y)
 
-we want to have the parameters and ranges to be accessed dynamic (sorting vice versa, or for different ones)
-we want to keep some the filters as an object, in order to apply different further filterings or calculations on it, without
-changing it (count,  ratio for x in range bla ), we want to plot different ranges of one parameter with different colors
+° we want to have the parameters and ranges to be accessed dynamic (sorting vice versa, or for different ones)
+
+° we want to keep some the filters as an object, in order to apply different further filterings or calculations on it, without
+changing it (count,  ratio for x in range bla ), 
+
+° we want to plot different ranges of one parameter with different colors
 in x,y plot wehere x,y are then next parameters. This would be than a 3 parameter-range-filtering-plot.
 
 
