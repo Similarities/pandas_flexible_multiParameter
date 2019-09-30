@@ -444,14 +444,14 @@ list_z = [-2000, -400, 400, 1500, 3500]
 
 
 
-my_sorted_data = discriminate_parameters(RESULT, "PP in out", 0.5)
+my_sorted_data = discriminate_parameters(RESULT, "PP in out", 7.9)
 
 
 
 #my_sorted_data.black_white_discrimination_exclusion()
 
 my_sorted_data.high_pass()
-my_sorted_data.switch_param_and_condition("PP in out", 8)
+my_sorted_data.switch_param_and_condition("PP in out", 35)
 my_sorted_data.low_pass()
 my_sorted_data.switch_param_and_condition("EL on target", 1.2)
 my_sorted_data.high_pass()
@@ -479,12 +479,19 @@ batch_one_paremeter_range_for_object(list_z)
 
 bandpass.reset_dataframe()
 bandpass.switch_parameter_and_conditions('GVD in fs^2', 400, 900)
+bandpass.band_pass_1()
+bandpass.keep_this_selection(True)
 batch_one_paremeter_range_for_object(list_z)
 
 
 bandpass.reset_dataframe()
 bandpass.switch_parameter_and_conditions('GVD in fs^2', 900, 1500)
+bandpass.band_pass_1()
+x=bandpass.keep_this_selection(True)
 batch_one_paremeter_range_for_object(list_z)
+
+print(x[["Nmax", "day", "GVD in fs^2"]])
+
 
 
 
