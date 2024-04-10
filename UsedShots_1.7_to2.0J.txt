@@ -1,0 +1,54 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/julie/Desktop/Work2020/evaluation_HHG/evaluation_scripts/pandas_HHG_search/energy_ranges_statistics.py
+columns in sort class: {'z um', 'NphotonN25srbw0.5N', 'divergence N=22', 'day', 'shot', 'EL on target', 'divergence N=25', 'EN25', 'GVD in fs^2', 'HHG 34-50nm', 'IL in 1E19', 'NPhotonbwN25', 'HHG 24nm-34nm', 'div25 gauss', 'Nmax', 'PP in out'}
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+all shots in this selection: 18
+          day shot  z um  GVD in fs^2
+41   20190122   42     0            0
+56   20190122   57  -400            0
+57   20190122   58  -400            0
+214  20180118   16 -2000          300
+220  20180118   22 -2400          300
+221  20180118   23 -2400          300
+408  20190117    2     0         -300
+411  20190117    5     0         -300
+413  20190117    7  -800         -300
+415  20190117    9  -800         -300
+416  20190117   10  -800         -300
+417  20190117   11  -800         -300
+420  20190117   14  -800         -300
+421  20190117   15  -800            0
+422  20190117   16  -800            0
+423  20190117   18  -800            0
+426  20190117   21  -800          300
+438  20190117   33 -1600          300
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+all shots in this selection: 1
+         day shot  z um  GVD in fs^2
+46  20190122   47   400          600
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1200
+all shots in this selection: 17
+          day shot  z um  GVD in fs^2
+51   20190122   52   400          900
+52   20190122   53  -400          900
+70   20190122   71 -2200          900
+183  20190129   36 -2200          700
+184  20190129   37 -2200          700
+185  20190129   38 -2200          700
+186  20190129   39 -2200          700
+188  20190129   41 -2200          700
+189  20190129   42 -2200          700
+190  20190129   43 -2200          700
+310  20190130   24 -2200          700
+312  20190130   26 -2200          700
+314  20190130   28 -2200          700
+315  20190130   29 -2200          700
+316  20190130   30 -2200          700
+317  20190130   31 -2200          700
+318  20190130   32 -2200          700
+xxxxxxxxxxxx 1.7-2J on target
+
+Process finished with exit code 0

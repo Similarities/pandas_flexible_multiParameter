@@ -1,0 +1,48 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/julie/Desktop/Work2020/evaluation_HHG/evaluation_scripts/pandas_HHG_search_march22_MBI/statistics_not_used_shots_divN25_gauss_defocused_range.py
+columns in sort class: {'Nphoton_sr_bw', 'GVD in fs^2', 'divergence N=25', 'div25 gauss', 'EN25', 'shot', 'Nmax', 'day', 'z um', 'HHG 34-50nm', 'EL on target', 'PP in out', 'HHG 24nm-34nm', 'divergence N=22', 'IL in 1E19'}
+xxxxxxxxx energy range on target 1.7-2.7
+only !!! shots considered with z<-1400 um
+578 overall shots in campaign
+178 number of shots with no prepulse and in the selected energy range
+134 with N>25 cutoff, PPout and selected Energy range of overall: 178
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+number of shots in this range including lower cutoff 57
+all shots with Nmax>24 27
+not evaluable or Nmax<24 in selection: div25 gauss    20
+dtype: int64
+not used shots general ratio: div25 gauss    0.877193
+dtype: float64
+not used shots ratio with Nmax>24: div25 gauss    0.740741
+dtype: float64
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_400_650
+number of shots in this range including lower cutoff 36
+all shots in this selection, Nmax>24: 27
+number of too low cutoff shots: 9
+not evaluable or Nmax<24 in selection: div25 gauss    11
+dtype: int64
+not used shots general ratio: div25 gauss    0.555556
+dtype: float64
+not used shots ratio for Nmax>24: div25 gauss    0.407407
+dtype: float64
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1105
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1105
+number of shots in this range including lower cutoff 85
+all shots in this selection, Nmax>24: 80
+number of too low cutoff shots: 5
+not evaluable or Nmax<24 in selection: div25 gauss    21
+dtype: int64
+all shots in this selection: 80
+not used shots general ratio: div25 gauss    0.305882
+dtype: float64
+not used shots ratio: div25 gauss    0.2625
+dtype: float64
+xxxxxxxxxxxx

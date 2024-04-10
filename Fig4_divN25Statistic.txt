@@ -1,0 +1,117 @@
+C:\ProgramData\Anaconda3\python.exe 
+
+
+energy range: 1.7-27 J on target
+
+C:/Users/julie/Desktop/Work2020/evaluation_HHG/evaluation_scripts/pandas_HHG_search_march22_MBI/Paper_N25_div_Gauss.py
+columns in sort class: {'divergence N=25', 'Nmax', 'shot', 'EN25', 'Nphoton_sr_bw', 'GVD in fs^2', 'EL on target', 'divergence N=22', 'div25 gauss', 'PP in out', 'IL in 1E19', 'HHG 34-50nm', 'day', 'HHG 24nm-34nm', 'z um'}
+578 overall shots in campaign
+242 number of shots with no prepulse and in the selected energy range
+164 with N>25 cutoff, PPout and selected Energy range of overall: 242
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+number of shots in this range including lower cutoff 108
+all shots with Nmax>24 46
+not evaluable or Nmax<24 in selection: div25 gauss    37
+dtype: int64
+not used shots general ratio: div25 gauss    0.916667
+dtype: float64
+not used shots ratio with Nmax>24: div25 gauss    0.804348
+dtype: float64
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.80000000e+03  8.25000000e-02  3.53553391e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.80000000e+03  8.25000000e-02  3.53553391e-03]
+ [-2.40000000e+03  1.02500000e-01  6.61437828e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.80000000e+03  8.25000000e-02  3.53553391e-03]
+ [-2.40000000e+03  1.02500000e-01  6.61437828e-03]
+ [-2.00000000e+03  9.25000000e-02  2.82842712e-02]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.80000000e+03  8.25000000e-02  3.53553391e-03]
+ [-2.40000000e+03  1.02500000e-01  6.61437828e-03]
+ [-2.00000000e+03  9.25000000e-02  2.82842712e-02]
+ [-8.00000000e+02  9.28750000e-02  1.43189123e-02]]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_400_650
+number of shots in this range including lower cutoff 40
+all shots in this selection, Nmax>24: 31
+not evaluable or Nmax<24 in selection: div25 gauss    15
+dtype: int64
+not used shots general ratio: div25 gauss    0.6
+dtype: float64
+not used shots ratio for Nmax>24: div25 gauss    0.483871
+dtype: float64
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.60000000e+03  5.12500000e-02  8.83883476e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.60000000e+03  5.12500000e-02  8.83883476e-03]
+ [-2.20000000e+03  5.52777778e-02  1.21478164e-02]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-2.60000000e+03  5.12500000e-02  8.83883476e-03]
+ [-2.20000000e+03  5.52777778e-02  1.21478164e-02]
+ [-1.60000000e+03  8.00000000e-02  4.94974747e-02]]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1101
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1200
+number of shots in this range including lower cutoff 92
+all shots in this selection, Nmax>24: 85
+not evaluable or Nmax<24 in selection: div25 gauss    25
+dtype: int64
+all shots in this selection: 85
+not used shots general ratio: div25 gauss    0.347826
+dtype: float64
+not used shots ratio: div25 gauss    0.294118
+dtype: float64
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]
+ [-2.80000000e+03  3.64285714e-02  6.43187746e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]
+ [-2.80000000e+03  3.64285714e-02  6.43187746e-03]
+ [-2.40000000e+03  4.00000000e-02  8.41625412e-03]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]
+ [-2.80000000e+03  3.64285714e-02  6.43187746e-03]
+ [-2.40000000e+03  4.00000000e-02  8.41625412e-03]
+ [-2.20000000e+03  5.86015625e-02  1.14773373e-02]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]
+ [-2.80000000e+03  3.64285714e-02  6.43187746e-03]
+ [-2.40000000e+03  4.00000000e-02  8.41625412e-03]
+ [-2.20000000e+03  5.86015625e-02  1.14773373e-02]
+ [-2.00000000e+03  6.55000000e-02  1.93971647e-02]]
+[[ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.00000000e+03  1.05000000e-01  3.53553391e-03]
+ [-3.60000000e+03  6.25000000e-02  3.95284708e-02]
+ [-3.20000000e+03  3.37500000e-02  4.33012702e-03]
+ [-2.80000000e+03  3.64285714e-02  6.43187746e-03]
+ [-2.40000000e+03  4.00000000e-02  8.41625412e-03]
+ [-2.20000000e+03  5.86015625e-02  1.14773373e-02]
+ [-2.00000000e+03  6.55000000e-02  1.93971647e-02]
+ [-1.60000000e+03  7.87500000e-02  2.29809704e-02]]
+
+Process finished with exit code 0

@@ -1,0 +1,32 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/julie/Desktop/Work2020/evaluation_HHG/evaluation_scripts/pandas_HHG_search/energy_ranges_statistics.py
+columns in sort class: {'day', 'NPhotonbwN25', 'divergence N=22', 'EN25', 'z um', 'HHG 24nm-34nm', 'NphotonN25srbw0.5N', 'GVD in fs^2', 'shot', 'EL on target', 'div25 gauss', 'HHG 34-50nm', 'divergence N=25', 'PP in out', 'IL in 1E19', 'Nmax'}
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_-300_400
+all shots in this selection: 6
+          day shot  z um  GVD in fs^2
+237  20180118   39 -2400          300
+238  20180118   40 -2400          300
+240  20180118   42 -2400            0
+241  20180118   43 -2400            0
+242  20180118   44 -2400            0
+439  20190117   34     0          300
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+all shots in this selection: 0
+Empty DataFrame
+Columns: [day, shot, z um, GVD in fs^2]
+Index: []
+xxxxxxxxxxxx
+GVD in fs^2 column to be sorted
+GVD in fs^2GVD in fs^2_700_1200
+all shots in this selection: 6
+          day shot  z um  GVD in fs^2
+193  20190129   46 -2200          700
+194  20190129   47 -2200          700
+195  20190129   48 -2200          700
+196  20190129   49 -2200          700
+197  20190129   50 -2200          700
+198  20190129   51 -2200          700
+xxxxxxxxxxxx 1-1.65J on target
+
+Process finished with exit code 0
