@@ -331,9 +331,11 @@ my_sorted_data = discriminate_parameters(RESULT, "PP in out", -1)
 my_sorted_data.black_white_discrimination()
 #my_sorted_data.switch_param_and_condition('day', 20190117)
 #my_sorted_data.black_white_discrimination_exclusion()
-my_sorted_data.switch_param_and_condition('EL on target', 1.98)
+E1=1.98
+E2=2.52
+my_sorted_data.switch_param_and_condition('EL on target', E1)
 my_sorted_data.high_pass()
-my_sorted_data.switch_param_and_condition('EL on target', 2.51)
+my_sorted_data.switch_param_and_condition('EL on target', E2)
 my_sorted_data.low_pass()
 # for statistics: here filtered results:
 PP_out_energy_range = my_sorted_data.return_df()
@@ -438,8 +440,8 @@ plot_together_in_one_graph("black", "GDD 700 - 1100 fs^2", mean_x, mean_y, "z [u
 
 
 #plt.xscale('log')
-plt.xlim(-4000,100)
-plt.title("2.0-2.5J on target")
+plt.xlim(-4200,100)
+plt.title(str(np.round(E1*0.7,1))+ "-"+ str(np.round(E2*0.7,1))+" J on target")
 #plt.ylim(0.5, 20)
 save_picture('div25_gauss_EL2-2.5_marker')
 plt.show()
